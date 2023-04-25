@@ -1,0 +1,67 @@
+#chats_start{
+    color: white;
+    border: 0;
+    background:#2e46df;
+    padding: 7px;
+    width: 250px;
+    position: fixed;
+    bottom: 0;
+    right: 6%;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+
+}
+
+#chats_up{
+    width: 250px;
+    position: fixed;
+    bottom: 0;
+    right: 6%;
+    background: white; 
+    border: 1px solid rgb(169, 169, 234);
+    border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+    overflow: hidden;
+   
+
+
+}
+.chat_list{
+   overflow-y: scroll;
+   height: 240px;
+}
+
+#chats_history{
+    width: 220px;
+    position: fixed;
+    bottom: 0;
+    right:27%;
+    background: white; 
+    border: 1px solid rgb(169, 169, 234);
+    border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+    overflow: hidden;
+}
+
+.chat_2_chat{
+    overflow: auto;
+    height: 150px;
+    overflow-x: hidden;
+}
+.user_chat{
+    background: rgb(241, 237, 237);
+    width: fit-content;
+    padding: 7px;
+    color: grey;
+    font-size: 0.8rem;
+
+
+}
+
+
+.head_chat{
+    background: #2e46df;
+    color: white;
+   
+    padding: 8px;
+}
