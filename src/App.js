@@ -6,7 +6,7 @@ import Landing from './components/LandingPage'
 import Details from './components/Details'
 
 
-function App() {
+function App(){
   return (
     <div>
 <BrowserRouter>
